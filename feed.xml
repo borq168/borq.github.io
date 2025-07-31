@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>borq</title>
+    <link>https://your-username.github.io/</link>
+    <description>borq 的极简博客</description>
+    <language>zh-CN</language>
+    <item>
+      <title>hello, world</title>
+      <link>https://your-username.github.io/posts/hello.html</link>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0800</pubDate>
+      <guid>https://your-username.github.io/posts/hello.html</guid>
+    </item>
+    <item>
+      <title>notes on building a minimal blog</title>
+      <link>https://your-username.github.io/posts/notes-on-minimal-blogs.html</link>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0800</pubDate>
+      <guid>https://your-username.github.io/posts/notes-on-minimal-blogs.html</guid>
+    </item>
+  </channel>
+</rss>
