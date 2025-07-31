@@ -1,0 +1,13 @@
+site_name: borq
+author: borq
+tagline: 简单清晰，专注写作与记录。
+base_url: ""   # 部署到用户主页仓库(yourname.github.io)时留空；部署到子路径时填子路径，如 /blog
+description: borq 的极简个人博客
+
+work_links:
+  - { text: "GitHub", url: "https://github.com/" }
+  - { text: "作品集", url: "https://example.com/" }
+
+other_links:
+  - { text: "X / Twitter", url: "https://twitter.com/" }
+  - { text: "Are.na", url: "https://www.are.na/" }

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="stylesheet" href="{{ base_url }}/styles.css">
+</head>
+<body>
+<main>
+  <header class="header">
+    <div class="name"><a href="{{ base_url }}/" style="text-decoration:none;color:inherit">{{ site_name }}</a></div>
+    {% if tagline %}<div class="quote">“{{ tagline }}”</div>{% endif %}
+  </header>
+  {% block content %}{% endblock %}
+  <div class="footer">
+    <span class="small">© {{ year }} {{ author }} · <a href="{{ base_url }}/feed.xml">RSS</a> · <a href="{{ base_url }}/about.html">about</a></span>
+  </div>
+</main>
+</body>
+</html>
